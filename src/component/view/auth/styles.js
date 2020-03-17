@@ -111,6 +111,7 @@ export const FacebookButton = styled.TouchableOpacity`
     borderRadius: 10px;
     borderWidth: 1px;
     borderColor: #4449CC;
+    overflow: hidden;
 `;
 
 export const GoogleButton = styled(FacebookButton)`    
@@ -128,8 +129,9 @@ export const FacebookText = styled.Text`
     color: black;
     height: 100%;   
     flex: 1;
-    textAlign: center;
-    textAlignVertical: center;
+    textAlign: center;    
+    paddingTop: 10px;
+    borderRadius: 10px;
 `;
 
 export const GoogleText = styled(FacebookText)`       
